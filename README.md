@@ -6,4 +6,4 @@ It displays "loading..." while the data is being fetched, and it instantly displ
 
 This project was made to improve my API skills, and increase my knowledge of the lifecycle methods in React.js.
 
-Live version deployed at [Vercel](https://calculator-psi-five.vercel.app/)
+Live version deployed at [Vercel](https://react-profile-card.vercel.app/)
