@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Ubuntu&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root{
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./pexels-anna-shvets-5218037.jpg);
+  background-size: 100% 50%;
+  background-position: center top;
+  background-repeat: no-repeat, no-repeat;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  width: 100%;
+  text-align: center;
+}
+#root > div{
+  display: flex;
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+#root > div > div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  transform: all ease 0.5s;
+  /* border: 1px solid blue; */
+  /* margin-top: 12%; */
+  /* min-width: 200px; */
+}
+#root > div > div > div{
+  /* min-width: 80%; */
+  border-radius: 50%;
+  /* border: 1px solid red; */
+  overflow: hidden;
+  /* min-height: 150px; */
+}
+h1{
+  font-size: 1.7rem;
+  color:#000;
+  
+}
+#root > div > div > div > img{
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  object-fit: contain;
+}
+.name{
+  font-size: 2rem;
+  color: #FF6B6C;
+}
+.email{
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #5B5F97 ;
+}
+button{
+  padding: 0.3em;
+  font-size: 2rem;
+  margin: 0px 5px;
+  width: 15%;
+  font-family: 900;
+  /* background-color: #C99F8E; */
+  border: 1px solid #5B5F97;
+  color: #5B5F97;
+  transition: all ease-in-out 0.5s;
+}
+button:hover,
+button:focus{
+  outline: none;
+  background-color: #5B5F97;
+  color: white;
+  transition: all ease-in-out 0.5s;
+}
